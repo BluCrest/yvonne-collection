@@ -6,6 +6,15 @@ A dual-purpose Next.js website for **Yvonne Collection**, a CAC-registered bouti
 
 Built by Emmanuel to run his mother's business online and to serve as professional web development portfolio work.
 
+## Screenshots
+
+Live on the custom domain, desktop and mobile:
+
+![Boutique home on mobile](docs/screenshots/home-mobile.jpg)
+![Boutique home on desktop](docs/screenshots/home-desktop.png)
+![Collections with availability filters](docs/screenshots/collections.png)
+![Ease with Yvonne Initiative home](docs/screenshots/ease.png)
+
 ## Features
 
 **Boutique (store)**
