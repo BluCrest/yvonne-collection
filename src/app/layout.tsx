@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     url: "https://yvonnecollection.org",
   },
   alternates: { canonical: "https://yvonnecollection.org" },
+  // Google Search Console — set GOOGLE_SITE_VERIFICATION in Vercel env, redeploy
+  ...(process.env.GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.GOOGLE_SITE_VERIFICATION } }
+    : {}),
 };
 
 export default function RootLayout({
